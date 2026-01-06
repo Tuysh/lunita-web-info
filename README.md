@@ -1,38 +1,68 @@
-# sv
+# Lunita Web Info
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Sitio web de información del proyecto **Lunita**, la IA Vidente que Ve Poco pero Siente Mucho. Esta web presenta la filosofía, características y SDK de Lunita.
 
-## Creating a project
+## 🚀 Quick Start
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Requisitos previos
+- Node.js 18+ 
+- npm, pnpm o yarn
 
-```sh
-# create a new project in the current directory
-npx sv create
+### Instalación
 
-# create a new project in my-app
-npx sv create my-app
-```
+```bash
+# Instalar dependencias
+npm install
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+# Iniciar servidor de desarrollo
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# Abrir en el navegador
 npm run dev -- --open
 ```
 
-## Building
+El sitio estará disponible en `http://localhost:5173`
 
-To create a production version of your app:
+## 📂 Estructura del Proyecto
 
-```sh
-npm run build
+```
+src/
+├── routes/
+│   ├── +page.svelte         # Página principal
+│   ├── filosofia/           # Sección: Filosofía de Lunita
+│   ├── sdk/                 # Sección: SDK Python
+│   └── layout.css
+├── lib/
+│   └── components/          # Componentes reutilizables
+│       ├── Hero.svelte
+│       ├── Features.svelte
+│       ├── NavBar.svelte
+│       ├── Footer.svelte
+│       ├── philosophy/      # Componentes de Filosofía
+│       └── sdk/             # Componentes del SDK
+└── app.html                 # Layout HTML base
 ```
 
-You can preview the production build with `npm run preview`.
+## 📜 Scripts Disponibles
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+| Script | Descripción |
+|--------|-------------|
+| `npm run dev` | Inicia el servidor de desarrollo |
+| `npm run build` | Compila para producción |
+| `npm run preview` | Previsualiza la build de producción |
+| `npm run lint` | Valida código con ESLint |
+| `npm run format` | Formatea código con Prettier |
+| `npm run check` | Valida tipos y sintaxis de Svelte |
+| `npm run check:watch` | Validación continua durante desarrollo |
+
+## 🛠 Tecnologías
+
+- **Svelte 5** - Framework reactivo
+- **SvelteKit** - Meta-framework para aplicaciones web
+- **TypeScript** - Tipado estático
+- **Tailwind CSS** - Utilidades CSS
+- **Vite** - Build tool moderno
+
+## 📝 Licencia
+
+Proyecto de Pardalis
