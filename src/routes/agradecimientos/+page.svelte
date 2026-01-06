@@ -5,14 +5,82 @@
 	import Contributors from '$lib/components/acknowledgments/Contributors.svelte';
 	import TechStack from '$lib/components/acknowledgments/TechStack.svelte';
 	import ClosingNote from '$lib/components/acknowledgments/ClosingNote.svelte';
+
+	const canonicalUrl = 'https://lunita.me/agradecimientos';
+	const pageTitle = 'Agradecimientos y Créditos — Lunita™';
+	const pageDescription =
+		'Créditos del proyecto Lunita, agradecimientos a Pardalis Labs y a la comunidad que impulsa una IA más cálida e inclusiva.';
+	const keywords = [
+		'Lunita',
+		'Agradecimientos Lunita',
+		'IA responsable',
+		'Tecnología empática',
+		'Pardalis Labs',
+		'Groq',
+		'Svelte',
+		'Tailwind'
+	];
+
+	const structuredData = {
+		'@context': 'https://schema.org',
+		'@type': 'WebPage',
+		name: pageTitle,
+		description: pageDescription,
+		url: canonicalUrl,
+		isPartOf: {
+			'@type': 'WebSite',
+			name: 'Lunita™',
+			url: 'https://lunita.me'
+		},
+		creator: {
+			'@type': 'Organization',
+			name: 'Pardalis Labs',
+			url: 'https://lunita.me'
+		},
+		contributor: [
+			{
+				'@type': 'Person',
+				name: 'Lunita™',
+				jobTitle: 'Inspiración y tono'
+			},
+			{
+				'@type': 'Organization',
+				name: 'Comunidad Lunita',
+				description: 'Colaboradores, beta testers y aliados del proyecto.'
+			}
+		],
+		about: [
+			{
+				'@type': 'Thing',
+				name: 'Inteligencia artificial responsable'
+			},
+			{
+				'@type': 'Thing',
+				name: 'Tecnología empática'
+			}
+		]
+	};
+
+	const structuredDataJson = JSON.stringify(structuredData);
 </script>
 
 <svelte:head>
-	<title>Agradecimientos — Lunita™</title>
-	<meta
-		name="description"
-		content="El proyecto Lunita es un esfuerzo colectivo de personas que creen en una tecnología más amable."
-	/>
+	<title>{pageTitle}</title>
+	<meta name="description" content={pageDescription} />
+	<meta name="keywords" content={keywords.join(', ')} />
+	<meta name="author" content="Pardalis Labs" />
+	<meta name="robots" content="index, follow" />
+	<link rel="canonical" href={canonicalUrl} />
+	<meta property="og:title" content={pageTitle} />
+	<meta property="og:description" content={pageDescription} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={canonicalUrl} />
+	<meta property="og:site_name" content="Lunita™" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content={pageTitle} />
+	<meta name="twitter:description" content={pageDescription} />
+	<meta name="twitter:creator" content="@pardalislabs" />
+	{@html `<script type="application/ld+json">${structuredDataJson}</script>`}
 </svelte:head>
 
 <div class="overflow-x-hidden selection:bg-purple-500/30">
