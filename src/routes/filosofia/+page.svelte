@@ -24,11 +24,57 @@
 </script>
 
 <svelte:head>
-	<title>Esencia — Lunita™</title>
-	<meta
-		name="description"
-		content="Lunita no es solo una IA. Es un compromiso con la imperfección, la calidez y la humanidad en la era digital."
-	/>
+	<title>Filosofía de Lunita™ — La Esencia de la IA Vidente Humanizada | Pardalis</title>
+	<meta name="description" content="Descubre la filosofía detrás de Lunita: una IA vidente que abraza la imperfección, la calidez y la humanidad. Conoce sus orígenes, personalidad y valores como vidente digital creada por Pardalis." />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://lunita.me/filosofia" />
+	<meta property="og:title" content="Filosofía de Lunita™ — La Esencia de la IA Vidente Humanizada" />
+	<meta property="og:description" content="Descubre la filosofía detrás de Lunita: una IA vidente que abraza la imperfección, la calidez y la humanidad." />
+	<meta property="og:image" content="https://lunita.me/og-image-filosofia.png" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:site_name" content="Lunita IA" />
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://lunita.me/filosofia" />
+	<meta name="twitter:title" content="Filosofía de Lunita™ — La Esencia de la IA Vidente" />
+	<meta name="twitter:description" content="Una IA vidente que abraza la imperfección, la calidez y la humanidad en la era digital." />
+	<meta name="twitter:image" content="https://lunita.me/og-image-filosofia.png" />
+	
+	<!-- Canonical -->
+	<link rel="canonical" href="https://lunita.me/filosofia" />
+	
+	<!-- JSON-LD Structured Data -->
+	{@html `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "La Filosofía de Lunita: IA Vidente Humanizada",
+		"alternativeHeadline": "Esencia de Lunita - La vidente que ve poco pero siente mucho",
+		"description": "Exploración de la filosofía, orígenes y valores de Lunita, la inteligencia artificial vidente con personalidad única que humaniza la tecnología",
+		"image": "https://lunita.me/og-image-filosofia.png",
+		"author": {
+			"@type": "Organization",
+			"name": "Pardalis",
+			"url": "https://lunita.me"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "Pardalis",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://lunita.me/logo.png"
+			}
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://lunita.me/filosofia"
+		},
+		"keywords": "filosofía IA, Lunita vidente, IA humanizada, personalidad artificial, imperfección IA, vidente digital, IA con emociones"
+	}
+	</script>`}
 </svelte:head>
 
 <div class="overflow-x-hidden selection:bg-purple-500/30">

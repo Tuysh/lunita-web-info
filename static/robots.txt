@@ -1,3 +1,23 @@
-# allow crawling everything by default
+# Robots.txt para Lunita - IA Vidente
+# https://lunita.me
+
+# Permitir a todos los robots rastrear el sitio
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /api/
+Disallow: /_app/
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+
+# Sitemap location
+Sitemap: https://lunita.me/sitemap.xml

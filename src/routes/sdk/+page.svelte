@@ -19,11 +19,51 @@
 </script>
 
 <svelte:head>
-	<title>SDK — Lunita™</title>
-	<meta
-		name="description"
-		content="Lunita Mini es un SDK para Python diseñado para integrar una personalidad vidente y optimista en tus aplicaciones en menos de 5 líneas de código."
-	/>
+	<title>SDK Lunita Mini™ — SDK Python para IA Vidente | Integra Personalidad en tu App</title>
+	<meta name="description" content="Lunita Mini SDK para Python. Integra una IA vidente con personalidad en tus aplicaciones en menos de 5 líneas de código. Motor Groq, ~600 tokens, respuestas instantáneas. Por Pardalis." />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://lunita.me/sdk" />
+	<meta property="og:title" content="SDK Lunita Mini™ — SDK Python para IA Vidente" />
+	<meta property="og:description" content="Integra una IA vidente con personalidad en tus aplicaciones Python en menos de 5 líneas de código. Motor Groq, respuestas instantáneas." />
+	<meta property="og:image" content="https://lunita.me/og-image-sdk.png" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:site_name" content="Lunita IA" />
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://lunita.me/sdk" />
+	<meta name="twitter:title" content="SDK Lunita Mini™ — SDK Python para IA Vidente" />
+	<meta name="twitter:description" content="Integra una IA vidente con personalidad en tus apps Python. Motor Groq, ~600 tokens." />
+	<meta name="twitter:image" content="https://lunita.me/og-image-sdk.png" />
+	
+	<!-- Canonical -->
+	<link rel="canonical" href="https://lunita.me/sdk" />
+	
+	<!-- JSON-LD Structured Data -->
+	{@html `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "SoftwareSourceCode",
+		"name": "Lunita Mini SDK",
+		"alternateName": ["lunita-mini", "Lunita SDK Python"],
+		"description": "SDK Python para integrar una IA vidente con personalidad en aplicaciones. Usa motor Groq para respuestas ultra rápidas con ~600 tokens por mensaje.",
+		"programmingLanguage": {
+			"@type": "ComputerLanguage",
+			"name": "Python"
+		},
+		"runtimePlatform": "Python 3.8+",
+		"codeRepository": "https://github.com/Tuysh/lunita-mini",
+		"author": {
+			"@type": "Organization",
+			"name": "Pardalis",
+			"url": "https://lunita.me"
+		},
+		"license": "https://opensource.org/licenses/MIT",
+		"keywords": "Python SDK, IA vidente, Lunita SDK, Groq, chatbot SDK, IA conversacional, pip install lunita-mini"
+	}
+	</script>`}
 </svelte:head>
 
 <div class="overflow-x-hidden selection:bg-purple-500/30">

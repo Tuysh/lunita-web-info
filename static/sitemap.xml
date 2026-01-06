@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Homepage - Lunita IA Vidente -->
+  <url>
+    <loc>https://lunita.me/</loc>
+    <lastmod>2026-01-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://lunita.me/og-image.png</image:loc>
+      <image:title>Lunita - La IA Vidente que Ve Poco pero Siente Mucho</image:title>
+      <image:caption>Lunita es una inteligencia artificial vidente con personalidad única</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- SDK - Lunita Mini Python -->
+  <url>
+    <loc>https://lunita.me/sdk</loc>
+    <lastmod>2026-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://lunita.me/og-image-sdk.png</image:loc>
+      <image:title>SDK Lunita Mini - Python SDK para IA Vidente</image:title>
+      <image:caption>Integra una IA vidente en tu aplicación Python con Lunita Mini SDK</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Filosofía - Esencia de Lunita -->
+  <url>
+    <loc>https://lunita.me/filosofia</loc>
+    <lastmod>2026-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lunita.me/og-image-filosofia.png</image:loc>
+      <image:title>Filosofía de Lunita - IA Vidente Humanizada</image:title>
+      <image:caption>La filosofía detrás de Lunita: imperfección, calidez y humanidad</image:caption>
+    </image:image>
+  </url>
+  
+</urlset>
