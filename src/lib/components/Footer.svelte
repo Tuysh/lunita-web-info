@@ -34,7 +34,7 @@
 					</li>
 					<li>
 						<a
-							href="https://twitter.com/lunita_ai"
+							href="https://x.com/Tuyshy"
 							class="group flex items-center gap-2 text-[13px] text-white/60 transition-colors hover:text-white"
 						>
 							<i data-lucide="twitter" class="h-4 w-4 text-white/30 group-hover:text-blue-400"></i>
@@ -49,7 +49,7 @@
 				<ul class="space-y-4">
 					<li>
 						<a
-							href="mailto:hola@lunita.me"
+							href="mailto:soporte@lunita.me"
 							class="flex items-center gap-2 text-[13px] text-white/60 transition-colors hover:text-white"
 						>
 							<i data-lucide="mail" class="h-4 w-4 text-white/30"></i>
