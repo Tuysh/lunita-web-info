@@ -84,8 +84,8 @@
 	class:open={menuOpen}
 >
 	<a onclick={closeMenu} href="#demo" class="text-3xl font-bold tracking-tight">Demo</a>
-	<a onclick={closeMenu} href="#sdk" class="text-3xl font-bold tracking-tight text-white/60">SDK</a>
-	<a onclick={closeMenu} href="#filosofia" class="text-3xl font-bold tracking-tight text-white/60"
+	<a onclick={closeMenu} href="/sdk" class="text-3xl font-bold tracking-tight text-white/60">SDK</a>
+	<a onclick={closeMenu} href="/filosofia" class="text-3xl font-bold tracking-tight text-white/60"
 		>Esencia</a
 	>
 	<div class="mt-auto pb-12">
