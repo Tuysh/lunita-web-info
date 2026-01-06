@@ -31,9 +31,9 @@
 		<!-- Logo -->
 		<a href="/" class="group flex items-center gap-2 text-xl font-bold tracking-tighter">
 			<div
-				class="apple-ease flex h-8 w-8 items-center justify-center rounded-lg bg-linear-to-br from-purple-500 to-indigo-600 shadow-lg transition-transform group-hover:scale-110"
+				class="apple-ease flex h-8 w-8 items-center justify-center shadow-lg transition-transform group-hover:scale-110"
 			>
-				<span class="text-sm">🔮</span>
+				<img src="/logo.svg" alt="Logo de Lunita" class="h-8 w-8" />
 			</div>
 			<span class="transition-opacity group-hover:opacity-80">Lunita</span>
 		</a>

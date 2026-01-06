@@ -11,7 +11,7 @@
 			<!-- Brand Column -->
 			<div class="space-y-6 md:col-span-1">
 				<div class="flex items-center gap-2 text-xl font-bold tracking-tighter">
-					<span class="text-2xl">🔮</span> Lunita™
+					<img src="/logo.svg" alt="Logo de Lunita" class="w-6" /> Lunita™
 				</div>
 				<p class="max-w-xs text-[13px] leading-relaxed text-white/40">
 					La vidente que ve poco, pero siente mucho. Interpretando mal el cosmos desde el 2025 para
