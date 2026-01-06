@@ -46,7 +46,7 @@
 				>Demo</a
 			>
 			<a
-				href="#sdk"
+				href="/sdk"
 				class="apple-ease rounded-full px-4 py-1.5 text-[13px] font-medium text-white/60 transition-all hover:bg-white/5 hover:text-white"
 				>SDK</a
 			>
