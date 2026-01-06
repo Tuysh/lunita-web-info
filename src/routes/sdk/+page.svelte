@@ -24,12 +24,6 @@
 		name="description"
 		content="Lunita Mini es un SDK para Python diseñado para integrar una personalidad vidente y optimista en tus aplicaciones en menos de 5 líneas de código."
 	/>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-	<link
-		href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
-		rel="stylesheet"
-	/>
 </svelte:head>
 
 <div class="overflow-x-hidden selection:bg-purple-500/30">
