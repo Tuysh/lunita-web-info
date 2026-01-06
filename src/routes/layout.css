@@ -135,3 +135,20 @@ nav.scrolled {
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 }
+
+/* Suavizado para agradecimientos */
+.text-subtle {
+	color: rgba(255, 255, 255, 0.4);
+}
+
+.glass-soft {
+	background: rgba(255, 255, 255, 0.02);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.reveal-slow {
+	opacity: 0;
+	animation: reveal-up 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}

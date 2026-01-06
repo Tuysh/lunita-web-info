@@ -46,7 +46,7 @@
 				>Demo</a
 			>
 			<a
-				href="/sdk"
+				href="#sdk"
 				class="apple-ease rounded-full px-4 py-1.5 text-[13px] font-medium text-white/60 transition-all hover:bg-white/5 hover:text-white"
 				>SDK</a
 			>
@@ -84,8 +84,8 @@
 	class:open={menuOpen}
 >
 	<a onclick={closeMenu} href="#demo" class="text-3xl font-bold tracking-tight">Demo</a>
-	<a onclick={closeMenu} href="/sdk" class="text-3xl font-bold tracking-tight text-white/60">SDK</a>
-	<a onclick={closeMenu} href="/filosofia" class="text-3xl font-bold tracking-tight text-white/60"
+	<a onclick={closeMenu} href="#sdk" class="text-3xl font-bold tracking-tight text-white/60">SDK</a>
+	<a onclick={closeMenu} href="#filosofia" class="text-3xl font-bold tracking-tight text-white/60"
 		>Esencia</a
 	>
 	<div class="mt-auto pb-12">

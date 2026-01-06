@@ -41,6 +41,15 @@
 							Pensamientos Voladores
 						</a>
 					</li>
+                    <li>
+						<a
+							href="/agradecimientos"
+							class="group flex items-center gap-2 text-[13px] text-white/60 transition-colors hover:text-white"
+						>
+							<i data-lucide="twitter" class="h-4 w-4 text-white/30 group-hover:text-blue-400"></i>
+							Agradecimientos Especiales
+						</a>
+					</li>
 				</ul>
 			</div>
 
