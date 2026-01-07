@@ -33,7 +33,7 @@
 			<div
 				class="apple-ease flex h-8 w-8 items-center justify-center shadow-lg transition-transform group-hover:scale-110"
 			>
-				<img src="/logo.svg" alt="Logo de Lunita" class="h-8 w-8" />
+				<img src="/logo-nuevo.webp" alt="Logo de Lunita" class="h-8 w-8" />
 			</div>
 			<span class="transition-opacity group-hover:opacity-80">Lunita</span>
 		</a>
